@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:text="@string/but_str1"
         android:textSize="20sp"
+        android:background="#a79fe6"
         android:layout_margin="20dp"
         />
     <Button

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="starbloom0128.kr.hs.emirim.widgetstart.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#5856c6"
+        android:textColor="#f9ee7e"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#5856c6"
+        android:textColor="#f9ee7e"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:visibility="invisible"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/but_str1"
+        android:textSize="20sp"
+        android:background="#5856c6"
+        android:textColor="#f9ee7e"
+        android:padding="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>
